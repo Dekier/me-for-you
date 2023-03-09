@@ -1,0 +1,30 @@
+.ErrorPage {
+  &__main-container {
+    width: 100%;
+    height: $full-height;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  &__center-container {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    margin-bottom: 42px;
+    @include text(42px, #fff, 400, center);
+  }
+
+  &__button {
+    width: 300px;
+    border: none;
+    background-color: green;
+    @include text(16px, #fff, 400, center);
+    height: 44px;
+    border-radius: 8px;
+    margin: 32px auto;
+  }
+}

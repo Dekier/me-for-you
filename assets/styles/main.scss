@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  word-spacing: 1px;
+  text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: $background-page;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+button {
+  padding: 0;
+  font-size: 100%;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+}

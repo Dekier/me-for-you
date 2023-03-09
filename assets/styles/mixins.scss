@@ -1,0 +1,36 @@
+@mixin for-phone-only {
+  @media (max-width: $phone) {
+    @content;
+  }
+}
+
+@mixin for-tablet-portrait-up {
+  @media (min-width: $tablet-portrait) {
+    @content;
+  }
+}
+
+@mixin for-tablet {
+  @media (min-width: $tablet) {
+    @content;
+  }
+}
+
+@mixin for-tablet-landscape-up {
+  @media (min-width: $tablet-landscape) {
+    @content;
+  }
+}
+
+@mixin for-desktop-up {
+  @media (min-width: $desktop) {
+    @content;
+  }
+}
+
+@mixin text($size: 12px, $color: #142c47, $weight: 400, $align: left) {
+  font-size: $size;
+  color: $color;
+  font-weight: $weight;
+  text-align: $align;
+}
